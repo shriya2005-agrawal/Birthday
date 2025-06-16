@@ -22,7 +22,7 @@ const QuotesSection = () => {
       
     },
     {
-      text: "I don't always know how to say it, but if birthdays are for celebrating what matters, then today is for celebrating you — someone who matters far more than you'll ever imagine.",
+      text: "If I could give you one thing in life, I would give you the ability to see yourself through my eyes, Only then would you realize how special you are to me.",
     }
   ];
 

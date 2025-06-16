@@ -36,12 +36,12 @@ const Hero = () => {
     // Play celebration sound
     const audio = audioRef.current;
     if (audio) {
-      audio.currentTime = 17;
+      audio.currentTime = 117;
       audio.play();
       setTimeout(() => {
         audio.pause();
         audio.currentTime = 0;
-      }, 35000); // Play for 10 seconds
+      }, 37000); // Play for 10 seconds
     }
   };
 
