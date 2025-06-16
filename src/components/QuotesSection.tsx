@@ -10,15 +10,15 @@ const QuotesSection = () => {
       text: "You're not just special today — you're special every single day. But today, I get the perfect excuse to tell you how much you truly mean to me.",
     },
     {
-      text: "You're not just important to me — you're unforgettable, irreplaceable, and deeply woven into everything good in my life. Today is your day, but I feel like the lucky one..",
-      
-    },
-    {
-      text: "Some people light up rooms, some light up lives — you do both. Thank you for being the heart in my days. Happy Birthday!",
+      text: "Tujh Jaisa Koi Mila Hi Nhi, \n Kaise Milta Kahi Pe Tha Hi Nahi,\n Tu Jaha Tak Dikhai Deta H Uske Aage Maine Dekhha Hi Nahi..!",
       
     },
     {
       text: "You're not just a part of my life — you're a reason for my smile, a source of strength, and a constant reminder of how lucky I am. Happy Birthday!",
+      
+    },
+    {
+      text: "Kuch Soch Kar Hi Milaya Hoga Upar Wale Ne Tumhe \n Warna Ittefaq Itna Khoobsurat Nahi Hota",
       
     },
     {
@@ -30,7 +30,7 @@ const QuotesSection = () => {
     setIsVisible(true);
     const interval = setInterval(() => {
       setCurrentQuote((prev) => (prev + 1) % quotes.length);
-    }, 5000);
+    }, 7000);
 
     return () => clearInterval(interval);
   }, [quotes.length]);
