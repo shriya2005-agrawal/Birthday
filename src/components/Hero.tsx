@@ -1,10 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { Sparkles, Calendar, Gift, PartyPopper } from 'lucide-react';
 
 const Hero = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [showConfetti, setShowConfetti] = useState(false);
   const [isAnimating, setIsAnimating] = useState(false);
+  const audioRef = useRef<HTMLAudioElement>(null);
 
   useEffect(() => {
     setIsVisible(true);
@@ -31,6 +32,17 @@ const Hero = () => {
         });
       }
     }, 1000);
+
+    // Play celebration sound
+    const audio = audioRef.current;
+    if (audio) {
+      audio.currentTime = 17;
+      audio.play();
+      setTimeout(() => {
+        audio.pause();
+        audio.currentTime = 0;
+      }, 35000); // Play for 10 seconds
+    }
   };
 
   return (
@@ -155,6 +167,8 @@ const Hero = () => {
           </div>
         </>
       )}
+
+      <audio ref={audioRef} src="public\Sapphire.mp3" />
     </section>
   );
 };

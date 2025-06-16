@@ -65,7 +65,7 @@ const BirthdayMessage = () => {
 
             <div className="text-left max-w-3xl mx-auto space-y-6 text-lg text-gray-300 leading-relaxed">
               <p>
-                On this special day, June 17th, we’re not just celebrating your birthday — we’re celebrating you and all the light you bring into the lives around you.
+                On this special day, June 17th, I'm not just celebrating your birthday — I'm celebrating you and all the light you bring into the lives around you.
               </p>
               
               <p>
@@ -77,7 +77,7 @@ const BirthdayMessage = () => {
               </p>
               
               <p className="text-center text-xl font-semibold text-white mt-8">
-                Here’s to you — today, and always. Happy Birthday! 🎉🎂✨
+                Here's to you — today, and always. Happy Birthday! 🎉🎂✨
               </p>
             </div>
 
@@ -115,7 +115,7 @@ const BirthdayMessage = () => {
               <Cake className="w-12 h-12 text-cyan-400 mx-auto mb-4" />
               <h3 className="text-2xl font-bold text-white mb-4">Celebration</h3>
               <p className="text-gray-300">
-                Today we celebrate you and the amazing journey ahead
+                Today I celebrate you and the amazing journey ahead
               </p>
             </div>
           </div>
