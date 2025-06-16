@@ -168,7 +168,7 @@ const Hero = () => {
         </>
       )}
 
-      <audio ref={audioRef} src="public\Sapphire.mp3" />
+      <audio ref={audioRef} src="/Sapphire.mp3" />
     </section>
   );
 };
